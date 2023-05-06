@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal portfollio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3686c92cc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpg" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work Areas</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>JAVA DEVELOPER / WEB DEVELOPER</p>
+        <h1>Hi, I'm <span>Abhay Singh,</span> <br />nice to meet you.Please take a look <br>around.</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ......................About Me...................... -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="photoabhay.jpeg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+         
+
+          <p>
+              I have been born and brought up in Farrukhabad district,Uttar Pradesh. Currently I am persuing <span>M.C.A.</span>
+              from <span>JAMIA MILLIA ISLAMIA NEW DELHI.</span><br>I am passioanate about building excellent software that improves the lives of those around me.<br>
+              I have <span>5 star on Hackerrank </span>for solving coding problems.Apart from my technical stuffs.My strengths are I always try to make a good connection with new people so that I can learn something new from them.
+              My short term goal is to get a job in reputated company but long term goal is to become a professional <span>Developer</span>
+          .</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Area of Interest')">Area of Interest</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</s>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Language</span><br>Java ** Intermediate **,<br> Python ** Beginner **</li>
+              <li><span>Frontend</span><br>HTML5,CSS,JAVASCRIPT</li>
+              <li><span>Java Development</span><br>SpringBoot Framework <br>Swing </li>
+              <li><span>Database/Database Language</span><br>Sql Server, MySql,SQL</li>
+              <li><span>Softwares</span><br>
+                Jira,IntellijIdea,NetBeans,Vs Code,PostMan</li>
+              <li><span>Operating System</span><br>Linux ** Beginner **</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Area of Interest">
+            <ul>
+              <li><span>Web Development</span><br>Desining Web ,HTML,CSS Javascript ..</li>
+              <li><span>Java Developer</span><br>Building Softwares using SpringBoot Framework </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2021-2023</span><br>M.C.A. ** Jamia Millia Islamia New Delhi **</li>
+              <li><span>2017-2020</span><br>Bachelor of Science ** Kanpur University **</li>
+              <li><span>2015-2017</span><br>Intermediate ** Jawahar Navodaya Vidyalaya Farrukhabad Uttar Pradesh **</li>
+              <li><span>2014-2015</span><br>High School ** Jawahar Navodaya Vidyalaya Farrukhabad Uttar Pradesh **</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....................Work areas ................... -->
+  <div id="Work Areas">
+    <div class="container">
+      <h1 class="sub-title">Work Areas</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Web design identifies the goals of a website or webpage and promotes accessibility
+             for all potential users. This process involves organizing content and images across a series 
+            of pages and integrating applications and other interactive elements.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop-simple"></i>
+          <h2>Web development</h2>
+          <p>Web development is the work involved in developing a website for the Internet 
+            (World Wide Web) or an intranet (a private network). Web development can range from
+             developing a simple single static page of plain text to 
+            complex web applications, electronic businesses, and social network services.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Java Development</h2>
+          <p>Java is a class-based, object-oriented programming language that is designed 
+            to have as few implementation dependencies as possible. It is intended to let
+             application developers write once, and run anywhere (WORA), meaning that compiled
+              Java code can run on all platforms that support Java without the need for 
+              recompilation. </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+  <!-- .......................contact info............................. -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>abhaysingh07082000@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 9696637657</p>
+          <p><i class="fa fa-whatsapp" ></i> 7880814200</p>
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="AbhaySinghCV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="Message" rows="6" placeholder="Discription"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &copy; myporifolio@co.in </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ................................scripting....................................../ -->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add('active-tab');
+    }
+
+  </script>
+</body>
+
+</html>
